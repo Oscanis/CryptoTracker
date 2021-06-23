@@ -10,6 +10,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -22,7 +23,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
               MatDialogModule,
               MatTabsModule,
               MatSelectModule,
-              MatCheckboxModule
+              MatCheckboxModule,
+              MatCardModule
             ],
     
     exports: [MatButtonModule,
@@ -33,7 +35,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
               MatDialogModule,
               MatTabsModule,
               MatSelectModule,
-              MatCheckboxModule
+              MatCheckboxModule,
+              MatCardModule
             ],
 })
 export class MaterialModule {};

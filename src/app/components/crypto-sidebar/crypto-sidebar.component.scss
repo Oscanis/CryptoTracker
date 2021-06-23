@@ -5,4 +5,18 @@
     padding-left: 5%;
     padding-top: 5%;
     background-image: url("../../../assets/bg-filtered.jpeg");
+
+    h2 {
+        margin-top: 2em;
+    }
+}
+
+mat-card {
+    max-width: 60%;
+    background-color: rgba(100, 100, 100, 0.3)!important;
+    margin: 1em;
+}   
+
+.noSocket {
+    max-width: 80%;
 }

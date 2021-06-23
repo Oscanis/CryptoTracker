@@ -1,5 +1,6 @@
 {
     "/api/*": "/$1",
+    "/ETH/USD/history": "/historyETH",
     "/:asset_id_base/USD/history": "/historyBTC",
     "/:asset_id_base/USD": "/rates?asset_id_base=:asset_id_base"
   }
