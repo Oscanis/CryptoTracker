@@ -1,0 +1,30 @@
+.dashboard-wrapper {
+
+    .dashboard-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        button {
+            max-height: 30px;
+        }
+    }
+
+    .calculator {
+        background-color: #666666;
+        border-radius: 5px;
+
+        .title {
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        .calcfield {
+            padding: 0 1em;
+        }
+
+        button {
+            margin-left: 1em;
+        }
+    }
+}

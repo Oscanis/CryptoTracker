@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <div class="logo">
+        <a [routerLink]="['/']" (click)="onLogout()">
+            <p class="mat-title" [ngStyle]="{'color': 'white', 'text-align': 'center', 'margin':'0', 'padding':'0'}">
+                Enco Crypto
+            </p>
+            <p class="mat-small" [ngStyle]="{'color': 'white', 'margin':'0', 'padding':'0'}">The Crypto Tracker</p>
+        </a>
+        <mat-icon [ngStyle]="{'font-size': '2.5em'}">account_balance_wallet</mat-icon>
+    </div>
+    <a [routerLink]="['/']" *ngIf="router.url !== '/'" (click)="onLogout()">
+        <p class="mat-title" [ngStyle]="{'color': 'white', 'margin':'0', 'padding':'0'}">Welcome, {{ userService.loggedInUser.name }}</p>
+        <p class="mat-body" [ngStyle]="{'color': 'white', 'text-align': 'center', 'margin':'0', 'padding':'0'}">
+            <mat-icon [ngStyle]="{'font-size':'1em'}">logout</mat-icon>  Logout
+        </p>
+    </a>
+</mat-toolbar>

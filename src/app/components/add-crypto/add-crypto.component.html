@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Add New Cryptocurrency</h1>
+<div mat-dialog-content>
+    <mat-label>Select</mat-label>
+    <mat-select [(value)]="crypto">
+        <mat-option *ngFor="let cr of data.crypto" [value]="cr.asset_id">{{ cr.name }}</mat-option>
+    </mat-select>
+</div>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button [mat-dialog-close]="crypto" cdkFocusInitial>Add</button>
+  </mat-dialog-actions>

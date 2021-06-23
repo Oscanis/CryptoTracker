@@ -1,0 +1,30 @@
+<div class="login-wrapper">
+<div class="login-container">
+        <mat-form-field class="login-full-width">
+            <mat-label>Username</mat-label>
+            <input type="text" matInput [formControl]="userFormControl" placeholder="Username">
+            <mat-error *ngIf="!userFormControl.hasError('required')">
+                Please enter the username
+            </mat-error>
+            <mat-error *ngIf="userFormControl.hasError('required')">
+                Username is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="login-full-width">
+            <mat-label>Password</mat-label>
+            <input type="text" matInput [formControl]="passFormControl" placeholder="Password">
+            <mat-error *ngIf="!passFormControl.hasError('required')">
+            Please enter the password
+            </mat-error>
+            <mat-error *ngIf="passFormControl.hasError('required')">
+            Password is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="onSubmit()">Login</button>
+        <h2  [ngStyle]="{'color': '#ff6666'}">{{ incorrectLogin }}</h2>
+        <div class="dev-check">
+            <mat-checkbox [(ngModel)]="devMode">Development Mode (data from fake API)</mat-checkbox>
+        </div>
+</div>
+</div>

@@ -1,0 +1,21 @@
+.crypto-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+    .crypto-sidebar {
+        width: 20%;
+        height: 100vh;
+    }
+
+    .tab-group {
+        width: 80%;
+        padding-left: 5%;
+        padding-top: 3%;
+        display: flex;
+
+        button {
+            max-height: 50px;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<div class="sidebar-wrapper">
+    <p>Sidebar</p>
+    <div *ngIf="socketFeed">
+        <p>{{ socketFeed.symbol_id }}</p>
+        <p>High: {{ socketFeed.ask_price }}</p>
+        <p>Low: {{ socketFeed.bid_price }}</p>
+    </div>
+    <div *ngIf="!socketFeed">
+        <p>Websocket connection could not be established</p>
+    </div>
+</div>

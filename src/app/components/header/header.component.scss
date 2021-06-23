@@ -1,0 +1,11 @@
+mat-toolbar {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        justify-content: left;
+    }
+}

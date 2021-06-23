@@ -1,0 +1,248 @@
+{
+    "assets": [
+        {
+            "asset_id": "USD",
+            "name": "US Dollar",
+            "type_is_crypto": 0,
+            "data_start": "2010-07-17",
+            "data_end": "2021-06-19",
+            "data_quote_start": "2014-02-24T17:43:05.0000000Z",
+            "data_quote_end": "2021-06-19T14:20:48.8331531Z",
+            "data_orderbook_start": "2014-02-24T17:43:05.0000000Z",
+            "data_orderbook_end": "2020-08-05T14:38:00.7082850Z",
+            "data_trade_start": "2010-07-17T23:09:17.0000000Z",
+            "data_trade_end": "2021-06-19T14:20:48.2419630Z",
+            "data_symbols_count": 63408,
+            "volume_1hrs_usd": 5101214970677.80,
+            "volume_1day_usd": 113139858794183.22,
+            "volume_1mth_usd": 5070343423503936.81,
+            "price_usd": 1,
+            "id_icon": "0a4185f2-1a03-4a7c-b866-ba7076d8c73b"
+        },
+        {
+            "asset_id": "BTC",
+            "name": "Bitcoin",
+            "type_is_crypto": 1,
+            "data_start": "2010-07-17",
+            "data_end": "2021-06-19",
+            "data_quote_start": "2014-02-24T17:43:05.0000000Z",
+            "data_quote_end": "2021-06-19T14:20:48.6625630Z",
+            "data_orderbook_start": "2014-02-24T17:43:05.0000000Z",
+            "data_orderbook_end": "2020-08-05T14:38:38.3413202Z",
+            "data_trade_start": "2010-07-17T23:09:17.0000000Z",
+            "data_trade_end": "2021-06-19T14:20:48.1990000Z",
+            "data_symbols_count": 57129,
+            "volume_1hrs_usd": 5305703670645.83,
+            "volume_1day_usd": 119919575764032.19,
+            "volume_1mth_usd": 5152134090030465.92,
+            "price_usd": 35970.768502721813440505868342,
+            "id_icon": "4caf2b16-a017-4e26-a348-2cea69c34cba"
+        },
+        {
+            "asset_id": "NIS",
+            "name": "NIS",
+            "type_is_crypto": 1,
+            "data_start": "2013-03-15",
+            "data_end": "2021-06-19",
+            "data_quote_start": "2018-01-24T00:42:50.1443495Z",
+            "data_quote_end": "2021-06-19T14:20:39.4303821Z",
+            "data_orderbook_start": "2018-01-24T00:42:50.1443495Z",
+            "data_orderbook_end": "2020-08-05T14:37:37.8190850Z",
+            "data_trade_start": "2013-03-15T12:48:43.0000000Z",
+            "data_trade_end": "2020-06-25T13:09:04.0000000Z",
+            "data_symbols_count": 8,
+            "volume_1hrs_usd": 0,
+            "volume_1day_usd": 0,
+            "volume_1mth_usd": 0,
+            "price_usd": 970.70505868342
+        },
+        {
+            "asset_id": "LTC",
+            "name": "Litecoin",
+            "type_is_crypto": 1,
+            "data_start": "2013-05-19",
+            "data_end": "2021-06-19",
+            "data_quote_start": "2014-04-20T15:06:34.0000000Z",
+            "data_quote_end": "2021-06-19T14:20:48.4118928Z",
+            "data_orderbook_start": "2014-04-20T15:06:34.0000000Z",
+            "data_orderbook_end": "2020-08-05T14:37:59.4868435Z",
+            "data_trade_start": "2013-05-19T15:23:45.0000000Z",
+            "data_trade_end": "2021-06-19T14:20:43.0000000Z",
+            "data_symbols_count": 4256,
+            "volume_1hrs_usd": 743559257.39,
+            "volume_1day_usd": 37368752969.90,
+            "volume_1mth_usd": 4432691384004.59,
+            "price_usd": 157.64522613905644558791639364,
+            "id_icon": "a201762f-1499-41ef-9b84-e0742cd00e48"
+        },
+        {
+            "asset_id": "XRP",
+            "name": "Ripple",
+            "type_is_crypto": 1,
+            "data_start": "2013-11-25",
+            "data_end": "2021-06-19",
+            "data_quote_start": "2014-07-31T13:05:46.0000000Z",
+            "data_quote_end": "2021-06-19T14:20:47.9770000Z",
+            "data_orderbook_start": "2014-07-31T13:05:46.0000000Z",
+            "data_orderbook_end": "2020-08-05T14:37:58.7010000Z",
+            "data_trade_start": "2013-11-25T11:54:57.9270000Z",
+            "data_trade_end": "2021-06-19T14:20:40.2690000Z",
+            "data_symbols_count": 2004,
+            "volume_1hrs_usd": 177887291.52,
+            "volume_1day_usd": 3800183700.57,
+            "volume_1mth_usd": 199000785744.77,
+            "price_usd": 7.7685022,
+            "id_icon": "ba90bcb0-cafb-4801-ac5d-d310f47d6411"
+        },
+        {
+            "asset_id": "DOGE",
+            "name": "DogeCoin",
+            "type_is_crypto": 1,
+            "data_start": "2014-02-21",
+            "data_end": "2021-06-19",
+            "data_quote_start": "2014-07-31T13:05:46.0000000Z",
+            "data_quote_end": "2021-06-19T14:20:47.0061745Z",
+            "data_orderbook_start": "2014-07-31T13:05:46.0000000Z",
+            "data_orderbook_end": "2020-08-05T14:37:58.7197513Z",
+            "data_trade_start": "2014-02-21T05:16:16.8330000Z",
+            "data_trade_end": "2021-06-19T14:20:08.2830000Z",
+            "data_symbols_count": 5181,
+            "volume_1hrs_usd": 93871064.77,
+            "volume_1day_usd": 58583388087.88,
+            "volume_1mth_usd": 18735349059400.21,
+            "price_usd": 0.2926074425,
+            "id_icon": "63e240f3-047f-41c7-9179-6784bc719f63"
+        },
+        {
+            "asset_id": "ETH",
+            "name": "ETHEREUM",
+            "type_is_crypto": 1,
+            "data_start": "2014-04-26",
+            "data_end": "2020-08-28",
+            "data_quote_start": "2017-11-10T19:29:20.0972201Z",
+            "data_quote_end": "2020-08-28T07:22:01.2019314Z",
+            "data_orderbook_start": "2017-11-10T19:29:20.0972201Z",
+            "data_orderbook_end": "2020-08-05T12:44:22.0331220Z",
+            "data_trade_start": "2014-04-26T10:18:20.0000000Z",
+            "data_trade_end": "2020-08-28T01:57:06.0000000Z",
+            "data_symbols_count": 14,
+            "volume_1hrs_usd": 0,
+            "volume_1day_usd": 0,
+            "volume_1mth_usd": 0,
+            "price_usd": 5931.653487564756,
+            "id_icon": "317320fb-5b13-4c74-856c-5901e77f9d3c"
+        }
+    ],
+    "historyBTC":
+    [
+        {
+            "time_period_start": "2021-06-02T00:00:00.0000000Z",
+            "time_period_end": "2021-06-02T00:01:00.0000000Z",
+            "time_open": "2021-06-02T00:00:00.0000000Z",
+            "time_close": "2021-06-02T00:01:00.0000000Z",
+            "rate_open": 49642.89075974334,
+            "rate_high": 49642.89075974334,
+            "rate_low": 49642.89075974334,
+            "rate_close": 49642.89075974334
+        },
+        {
+            "time_period_start": "2021-06-03T00:01:00.0000000Z",
+            "time_period_end": "2021-06-03T00:02:00.0000000Z",
+            "time_open": "2021-06-03T00:01:00.0000000Z",
+            "time_close": "2021-06-03T00:02:00.0000000Z",
+            "rate_open": 49649.71537706716,
+            "rate_high": 49649.71537706716,
+            "rate_low": 49649.71537706716,
+            "rate_close": 49649.71537706716
+        },
+        {
+            "time_period_start": "2021-06-04T23:59:00.0000000Z",
+            "time_period_end": "2021-06-04T00:00:00.0000000Z",
+            "time_open": "2021-06-04T23:59:00.0000000Z",
+            "time_close": "2021-06-04T00:00:00.0000000Z",
+            "rate_open": 48348.04226728628,
+            "rate_high": 48348.04226728628,
+            "rate_low": 48348.04226728628,
+            "rate_close": 48348.04226728628
+        },
+        {
+            "time_period_start": "2021-06-05T23:59:00.0000000Z",
+            "time_period_end": "2021-06-05T00:00:00.0000000Z",
+            "time_open": "2021-06-05T23:59:00.0000000Z",
+            "time_close": "2021-06-05T00:00:00.0000000Z",
+            "rate_open": 47148.04226728628,
+            "rate_high": 47148.04226728628,
+            "rate_low": 47148.04226728628,
+            "rate_close": 47148.04226728628
+        },
+        {
+            "time_period_start": "2021-06-06T23:59:00.0000000Z",
+            "time_period_end": "2021-06-06T00:00:00.0000000Z",
+            "time_open": "2021-06-06T23:59:00.0000000Z",
+            "time_close": "2021-06-06T00:00:00.0000000Z",
+            "rate_open": 44348.04226728628,
+            "rate_high": 44348.04226728628,
+            "rate_low": 44348.04226728628,
+            "rate_close": 44348.04226728628
+        },
+        {
+            "time_period_start": "2021-06-07T23:59:00.0000000Z",
+            "time_period_end": "2021-06-07T00:00:00.0000000Z",
+            "time_open": "2021-06-07T23:59:00.0000000Z",
+            "time_close": "2021-06-07T00:00:00.0000000Z",
+            "rate_open": 46348.04226728628,
+            "rate_high": 46348.04226728628,
+            "rate_low": 46348.04226728628,
+            "rate_close": 46348.04226728628
+        },
+        {
+            "time_period_start": "2021-06-08T23:59:00.0000000Z",
+            "time_period_end": "2021-06-08T00:00:00.0000000Z",
+            "time_open": "2021-06-08T23:59:00.0000000Z",
+            "time_close": "2021-06-08T00:00:00.0000000Z",
+            "rate_open": 48348.04226728628,
+            "rate_high": 48348.04226728628,
+            "rate_low": 48348.04226728628,
+            "rate_close": 48348.04226728628
+        }
+    ],
+    "rates":
+    [
+        {
+            "time": "2014-02-24T17:43:05.0000000Z",
+            "asset_id_base": "BTC",
+            "asset_id_quote": "USD",
+            "rate": 35970.768502721813440505868342
+        },
+        {
+            "time": "2014-02-24T17:43:05.0000000Z",
+            "asset_id_base": "NIS",
+            "asset_id_quote": "USD",
+            "rate": 970.70505868342
+        },
+        {
+            "time": "2014-02-24T17:43:05.0000000Z",
+            "asset_id_base": "LTC",
+            "asset_id_quote": "USD",
+            "rate": 157.64522613905644558791639364
+        },
+        {
+            "time": "2014-02-24T17:43:05.0000000Z",
+            "asset_id_base": "XRP",
+            "asset_id_quote": "USD",
+            "rate": 7.7685022
+        },
+        {
+            "time": "2014-02-24T17:43:05.0000000Z",
+            "asset_id_base": "DOGE",
+            "asset_id_quote": "USD",
+            "rate": 0.2926074425
+        },
+        {
+            "time": "2014-02-24T17:43:05.0000000Z",
+            "asset_id_base": "ETH",
+            "asset_id_quote": "USD",
+            "rate": 5931.653487564756
+        }
+    ]
+}

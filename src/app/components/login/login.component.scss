@@ -1,0 +1,28 @@
+.login-wrapper {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../../../assets/bg-filtered.jpeg");
+
+    .login-container {
+        width: 40%;
+        padding: 10% 30%;
+        
+    }
+
+    .login-form {
+        min-width: 150px;
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .login-full-width {
+        width: 100%;
+    }
+
+    .button-container {
+        min-width: 150px;
+        max-width: 500px;
+        margin: 10px auto;
+    }
+}

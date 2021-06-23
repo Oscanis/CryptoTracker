@@ -1,0 +1,12 @@
+<div class="crypto-wrapper">
+    <app-crypto-sidebar class="crypto-sidebar"></app-crypto-sidebar>
+    <div class="tab-group">
+        <mat-tab-group animationDuration="0ms">
+            <mat-tab *ngFor="let crypto of user.cryptos">
+                <ng-template mat-tab-label>{{ crypto }}</ng-template>
+                <app-crypto-dashboard [cryptoId]="crypto" (deleteEvent)="removeCrypto($event)"></app-crypto-dashboard>
+            </mat-tab>
+        </mat-tab-group>
+        <button mat-button color="primary" (click)="addCrypto()"><mat-icon>add_circle</mat-icon></button>
+    </div>
+</div>
